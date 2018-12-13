@@ -10,7 +10,7 @@ struct Student
         int id;
         char class_stud[20];
         int age;
-        long double tel;
+        double tel;
         int marks;
         char grade[4];
         int courseCode;
@@ -33,7 +33,7 @@ int main()
 
 
        cout << endl;
-       cout << "\t Select Option:";
+       cout << "Select Option:";
 
        int m;
        cin >>m ;
