@@ -29,8 +29,8 @@ int main()
      int det3=0;
         
         cout << "You are welcome to Heathen Prepratory School Management System" << endl;
-       cout << "Press 1 Edit/Delete/Add Student" << endl;
-       cout << "Press 2 Edit/Delete/Add Staff" << endl;
+       cout << "Enter 1 to Edit or Delete or Add Student Details " << endl;
+       cout << "Enter 2 Edit to Delete or Add Staff Records" << endl;
 
 
        cout << endl;
@@ -48,11 +48,12 @@ int main()
     do
    {
        Student stud[100];
-
-       cout << "Press 1 to a Add New Record" << endl;
-       cout << "Press 2 to Delete Record" << endl;
-       cout << "Press 3 to Edit Record" << endl;
-       cout << "Press 4 to Display Record" << endl;
+        
+	  cout << "// STUDENT PORTAL // " << endl;  
+       cout << "Hit 1 to a Add New Student Registration" << endl;
+       cout << "Hit 2 to Delete Student Information" << endl;
+       cout << "Hit 3 to update already existing student information" << endl;
+       cout << "Hit 4 to Display the list of all students with respective information" << endl;
 
        cout << endl;
        cout << "\t Select Option:";
@@ -273,10 +274,10 @@ int main()
    {
        Student stud[100];
 
-       cout << "Press 1 to Add New Record" << endl;
-       cout << "Press 2 to Delete Record" << endl;
-       cout << "Press 3 to Edit Record" << endl;
-       cout << "Press 4 to Display Record" << endl;
+       cout << "Press 1 to Add New Staff Record" << endl;
+       cout << "Press 2 to Delete Staff Record" << endl;
+       cout << "Press 3 to update Staff Record" << endl;
+       cout << "Press 4 to Display the list of staff  record" << endl;
 
        cout << endl;
        cout << "\t Select Option:";
