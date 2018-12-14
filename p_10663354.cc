@@ -27,7 +27,8 @@ int main()
      int det=0;
      int det2=0;
      int det3=0;
-
+        
+        cout << "You are welcome to Heathen Prepratory School Management System" << endl;
        cout << "Press 1 Edit/Delete/Add Student" << endl;
        cout << "Press 2 Edit/Delete/Add Staff" << endl;
 
