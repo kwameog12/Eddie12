@@ -29,8 +29,8 @@ int main()
      int det3=0;
         
         cout << "You are welcome to Heathen Prepratory School Management System" << endl;
-       cout << "Enter 1 to Edit or Delete or Add Student Details " << endl;
-       cout << "Enter 2 Edit to Delete or Add Staff Records" << endl;
+       cout << " 1. Students Information" << endl;
+       cout << " 2. for Staff Information" << endl;
 
 
        cout << endl;
@@ -50,10 +50,10 @@ int main()
        Student stud[100];
         
 	  cout << "// STUDENT PORTAL // " << endl;  
-       cout << "Hit 1 to a Add New Student Registration" << endl;
-       cout << "Hit 2 to Delete Student Information" << endl;
-       cout << "Hit 3 to update already existing student information" << endl;
-       cout << "Hit 4 to Display the list of all students with respective information" << endl;
+       cout << "1. Add New Student Registration" << endl;
+       cout << "2. Delete Student Information" << endl;
+       cout << "3. Update already existing student information" << endl;
+       cout << "4. Display the list of all students with respective information" << endl;
 
        cout << endl;
        cout << "\t Select Option:";
@@ -257,7 +257,7 @@ int main()
           cout << "\t You've selected a wrong Option";
             break;
     }
-          cout << "\n \n \t Do You want to Continue Again? [Yes/No]";
+          cout << "\n \n \t Do You want to Continue Again? [y/n]";
           cin>> answer ;
             }
 
@@ -425,7 +425,7 @@ cout << "\n\t Enter the Telephone no = ";
             cout << "\t You've selected a wrong Option";
             break;
     }
-          cout << "\n \n \t Do You want to Continue Again? [Yes/No]";
+          cout << "\n \n \t Do You want to enter another data  [y/n]";
           cin>> answer;
             }
 
